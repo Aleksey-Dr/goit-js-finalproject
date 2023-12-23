@@ -12,13 +12,13 @@ function createGalleryItems() {
 
     const item = galleryItems.map((image) => {
         return `
-                    <li>
+                    <li class="gallery__item">
                         <a
                             rel="noopener noreferrer"
                             target="_blank"
                             href="${image.original}"
                             aria-label="Image"
-                            class="gallery__item"
+                            class="gallery__link"
                         >
                             <img
                                 src="${image.preview}"
